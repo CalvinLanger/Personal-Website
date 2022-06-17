@@ -1,0 +1,69 @@
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .home__buttons {
+    display: grid;
+  }
+
+  .home__social,
+  .home__scroll-name {
+    display: none;
+  }
+
+  .about__info {
+    grid-template-columns: none;
+  }
+}
+
+
+
+
+/* For medium devices */
+@media screen and (max-width: 760px) {
+  .nav__menu {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 630px) {
+    .footer__container{
+        grid-template-columns: 1fr;
+    }
+
+    .footer__title,
+    .footer__social,
+    .footer__copy{
+        padding-bottom: 2.2rem;
+    }
+
+    .footer__copy{
+        margin-bottom: 3rem;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 968px) {
+
+  .nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav__menu {
+    width: 968px;
+    left: auto;
+    right: auto;
+  }
+}

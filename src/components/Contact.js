@@ -2,7 +2,7 @@ import React from 'react';
 import { SiWhatsapp, SiGmail, SiMessenger } from 'react-icons/si';
 import { BsArrowRightShort } from 'react-icons/bs';
 
-function Contact() {
+function Contact(props) {
     return (
         <div>
             <section class="contact section" id="contact">
@@ -66,7 +66,7 @@ function Contact() {
                     <div class="contact__content">
                         <h3 class="contact__title">Write me your question</h3>
 
-                        <form action="mail.php" method="POST" class="contact__form">
+                        <form class="contact__form" onSubmit={props.toError}>
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Names</label>
                                 <input

@@ -9,16 +9,20 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+function error() {
+  alert('function in bulding...');
+}
+
 function App() {
   return (
     <div>
       <div className="container grid">
-        <Header />
+        <Header toError={error} />
         <main class="main">
           <Home />
           <About />
           <Skills />
-          <Contact />
+          <Contact toError={error} />
         </main>
       </div>
       <Footer />

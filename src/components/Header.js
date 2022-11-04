@@ -2,9 +2,8 @@ import React from 'react';
 import { FiMoon, FiSun } from 'react-icons/fi';
 import { BiHomeAlt, BiUser, BiBook, BiMessageSquareDetail } from 'react-icons/bi';
 
-let themeIcon = <FiMoon className="themeLogo" />;
 
-function Header() {
+function Header(props) {
     return (
         <div>
             <header class="header" id="header">
@@ -38,7 +37,7 @@ function Header() {
                             </li>
                         </ul>
                     </div>
-                    {themeIcon}
+                    <FiMoon className="themeLogo" onClick={props.toError} />
                 </nav>
             </header>
         </div>

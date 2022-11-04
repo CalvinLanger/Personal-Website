@@ -1,6 +1,9 @@
 import React from 'react';
 import { FaAward, FaBriefcase, FaHeadset } from 'react-icons/fa';
 
+let today = new Date();
+let year = today.getFullYear();
+
 function About() {
     return (
         <div>
@@ -16,7 +19,7 @@ function About() {
                             <div class="about__box">
                                 <FaAward class="about__icon" />
                                 <h3 class="about__title">Experience</h3>
-                                <span class="about__subtitle">+1 year</span>
+                                <span class="about__subtitle">+{year - 2021} Year</span>
                             </div>
 
                             <div class="about__box">

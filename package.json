@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "https://CalvinLanger.io/react-gh-pages",
+  "homepage": "https://CalvinLanger.io/Personal-Website",
   "private": true,
   "dependencies": {
     "@mui/icons-material": "^5.6.2",

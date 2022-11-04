@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.5daf1001.css",
+    "main.js": "/react-gh-pages/static/js/main.d642cc55.js",
+    "static/media/whoami.jpg": "/react-gh-pages/static/media/whoami.649bec2b9b4b58e8f42a.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.5daf1001.css.map": "/react-gh-pages/static/css/main.5daf1001.css.map",
+    "main.d642cc55.js.map": "/react-gh-pages/static/js/main.d642cc55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5daf1001.css",
+    "static/js/main.d642cc55.js"
+  ]
+}

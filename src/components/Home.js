@@ -13,7 +13,7 @@ function Home() {
                     <h3 class="home__education">Frontend Developer</h3>
 
                     <div class="home__buttons">
-                        <a href="#" class="button button--ghost"> Download CV </a>
+                        <a href="./src/CV/MyCourses.zip" class="button button--ghost" download> Download CV </a>
                         <a href="#about" class="button">About me</a>
                     </div>
                 </div>

@@ -49,7 +49,7 @@ function Contact() {
                             <div class="contact__card">
                                 <SiMessenger class="bxl-messenger contact__card-icon" color="#006AFF" />
                                 <h3 class="contact__card-title">Messenger</h3>
-                                <span class="contact__card-data">calvinlangerr</span>
+                                <span class="contact__card-data">Bartłomiej Harasim</span>
 
                                 <a
                                     href="https://m.me/calvinlangerr"

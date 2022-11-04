@@ -27,17 +27,12 @@
   }
 }
 
-
-
-
 /* For medium devices */
-@media screen and (max-width: 760px) {
-  .nav__menu {
+@media screen and (max-width: 630px) {
+     .nav__menu {
     visibility: visible;
   }
-}
 
-@media screen and (max-width: 630px) {
     .footer__container{
         grid-template-columns: 1fr;
     }

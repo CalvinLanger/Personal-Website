@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FiMoon, FiSun } from 'react-icons/fi';
 import { BiHomeAlt, BiUser, BiBook, BiMessageSquareDetail } from 'react-icons/bi';
 
 
+
 function Header(props) {
+
+    const [lightMode, setLightMode] = useState(false);
+
     return (
         <div>
             <header class="header" id="header">
@@ -37,7 +41,11 @@ function Header(props) {
                             </li>
                         </ul>
                     </div>
-                    <FiMoon className="themeLogo" onClick={props.toError} />
+                    {lightMode ?
+                        <FiMoon class="themeLogo" onClick={() => { setLightMode(!lightMode); }} />
+                        :
+                        <FiSun class="themeLogo" onClick={() => { setLightMode(!lightMode); }} />
+                    }
                 </nav>
             </header>
         </div>

@@ -4,9 +4,14 @@ import { BiHomeAlt, BiUser, BiBook, BiMessageSquareDetail } from 'react-icons/bi
 
 
 
-function Header(props) {
+function Header() {
 
-    const [lightMode, setLightMode] = useState(false);
+    const [lightMode, setLightMode] = useState(true);
+
+    function changeTheme() {
+        setLightMode(!lightMode);
+        document.body.classList.toggle("light-theme");
+    }
 
     return (
         <div>
@@ -42,9 +47,9 @@ function Header(props) {
                         </ul>
                     </div>
                     {lightMode ?
-                        <FiMoon class="themeLogo" onClick={() => { setLightMode(!lightMode); }} />
+                        <FiMoon class="themeLogo" onClick={changeTheme} />
                         :
-                        <FiSun class="themeLogo" onClick={() => { setLightMode(!lightMode); }} />
+                        <FiSun class="themeLogo" onClick={changeTheme} />
                     }
                 </nav>
             </header>

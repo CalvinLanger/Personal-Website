@@ -10,7 +10,7 @@ function Skills() {
 
                 <div class="skills__container container grid">
                     <div class="skills__content">
-                        <h3 class="skills__title">Frontend Developer</h3>
+                        <h3 class="skills__title">IT Engineer</h3>
 
                         <div class="skills__box">
                             <div class="skills__group">
@@ -66,6 +66,19 @@ function Skills() {
 
                                     <div>
                                         <h3 class="skills__name">Linux</h3>
+                                        <span class="skills__level">BASIC</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__group">
+
+                                <div class="skills__data">
+                                    <BiBadgeCheck class="bxs-badge-check" />
+
+                                    <div>
+                                        <h3 class="skills__name">Bash</h3>
                                         <span class="skills__level">BASIC</span>
                                     </div>
                                 </div>

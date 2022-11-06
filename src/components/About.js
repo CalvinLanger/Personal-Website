@@ -36,8 +36,7 @@ function About() {
                         </div>
 
                         <p class="about__description">
-                            Frontend developer, I create web pages with UI / UX user
-                            interface, I'm begginer of programming but I quick learn new
+                            IT Engineer, Information Technology is my passion, I'm begginer of programming but I quick learn new
                             things.
                         </p>
 

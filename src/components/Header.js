@@ -17,7 +17,7 @@ function Header() {
         <div>
             <header class="header" id="header">
                 <nav class="nav container">
-                    <a href="https://www.abstergo.pl/" class="nav__logo">ABSTERGO.inc</a>
+                    <a href="#" class="nav__logo">ABSTERGO.inc</a>
 
                     <div class="nav__menu">
                         <ul class="nav__list">

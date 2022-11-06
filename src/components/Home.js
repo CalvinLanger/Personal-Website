@@ -10,10 +10,10 @@ function Home() {
                 <div class="home__data">
                     <span class="home__greeting">Hello, I'm</span>
                     <h1 class="home__name">Bartlomiej Harasim</h1>
-                    <h3 class="home__education">Frontend Developer</h3>
+                    <h3 class="home__education">IT Engineer</h3>
 
                     <div class="home__buttons">
-                        <a href="./src/CV/MyCourses.zip" class="button button--ghost" download> Download CV </a>
+                        <a href="./src/CV/B.Harasim__Kursy.zip" class="button button--ghost" download> Download CV </a>
                         <a href="#about" class="button">About me</a>
                     </div>
                 </div>

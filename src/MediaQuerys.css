@@ -29,12 +29,24 @@
 
 /* For medium devices */
 @media screen and (max-width: 630px) {
-     .nav__menu {
+  .container {
+    padding: 0;
+  }
+
+  .nav__menu {
     visibility: visible;
+  }
+
+  .contact{
+    margin-bottom: 2rem;
   }
 
     .footer__container{
         grid-template-columns: 1fr;
+    }
+
+    .footer__title{
+      padding-top: 1rem;
     }
 
     .footer__title,

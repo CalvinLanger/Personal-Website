@@ -74,6 +74,7 @@ function Contact(props) {
                                     name="names"
                                     placeholder="Insert your name"
                                     class="contact__form-input"
+                                    required
                                 />
                             </div>
 
@@ -84,6 +85,7 @@ function Contact(props) {
                                     name="email"
                                     placeholder="Insert your email"
                                     class="contact__form-input"
+                                    required
                                 />
                             </div>
 
@@ -96,6 +98,7 @@ function Contact(props) {
                                     rows="10"
                                     class="contact__form-input"
                                     placeholder="Write your question"
+                                    required
                                 ></textarea>
                                 <button class="button button-form" type="submit">Send Message</button>
                             </div>
